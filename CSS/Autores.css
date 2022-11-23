@@ -1,0 +1,268 @@
+body {
+  margin: 0;
+  background-color: rgb(254, 227, 152);
+  background-image: url(/Img/fondo.jpg);
+}
+/*inicio nav*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+ height: 50px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #bab104;
+  height: 50px;
+}
+
+/*final del nav*/
+.card{
+  margin-top: 50px;
+  margin-left: 70px;
+  width: 2600px;
+}
+.card-title{
+  font-size: 3rem;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card-text{
+  font-size: 1.5rem;
+  font-style: italic;
+  width: 1200px;
+}
+.isHidden{
+  display: none;
+}
+
+#btn{
+  border-radius: 100px;
+  font-size:1.2rem ;
+  font-family: 'Times New Roman', Times, serif;
+  width: 105px;
+  height: 40px;
+  background-color: rgb(223, 245, 234);
+  box-shadow: 1px 1px 4px black;
+
+}
+#btn-obras{
+  border-radius: 100px;
+  font-size: 1.2rem;
+  font-family: 'Times New Roman', Times, serif;
+  width: 105px;
+  height: 40px;
+  background-color: rgb(223, 245, 234);
+  box-shadow: 1px 1px 4px black;
+}
+.hidden{
+  width: 750px;
+}
+#paragraf {
+  font-size: 1.5rem;
+  text-align: center;
+  font-style: italic;
+ 
+}
+#btn-obras:active {
+  background-color:rgb(237, 255, 71);
+  transition: background-color .5s;
+}
+
+#btn:active {
+  background-color:rgb(237, 255, 71);
+  transition: background-color .5s;
+}
+#frase{
+  font-size: 2rem;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+  font-style: oblique;
+}
+#autor-frase{
+ font-size: 1.5em;
+ text-align: center;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#fotos-descrip{
+font-size: 4rem;
+text-align: center;
+font-style: initial;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#fotos-descrip-2{
+  font-size: 2rem;
+  font-style: oblique;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+h2{
+ font-family: 'Courier New', Courier, monospace;
+
+}
+section{
+  height:200vh;
+  width: 100%;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:contain;
+ background-attachment: fixed;
+}
+.image-1 {
+background-image: url("/Img/Alejandra Vazano/DSC_0001.JPG");
+}
+
+.image-2 {
+  background-image: url("/Img/Alejandra Vazano/Jazmin\ luces\ y\ sombre.jpg");
+}
+.image-3 {
+  background-image: url("/Img/Alejandra Vazano/Paisaje\ Paraje\ el\ Trigo.jpg");
+}
+.image-4 {
+  background-image: url("/Img/Alejandra Vazano/RETRATO\ DE\ GATO.jpg");
+}
+.image-5{
+  background-image: url("/Img/Alejandra Vazano/Interior\ de\ Almacen\ Abandonado\ Harosteguy\ 2.jpg");
+}
+/* Aldo Tobio imagenes*/
+
+.image-6 {
+  background-image: url("/Img/Aldo Tobio/Contemporaneo.jpg");
+  }
+  
+  .image-7 {
+  
+    background-image: url("/Img/Aldo Tobio/Ausencia.jpg");
+  }
+  .image-8 {
+    background-image: url("/Img/Aldo Tobio/Cuesta\ arriba.jpg");
+  }
+  .image-9 {
+    background-image: url("/Img/Aldo Tobio/Máquina\ versus\ Naturaleza.jpg");
+  }
+  .image-10{
+    background-image: url("/Img/Aldo Tobio/portal.jpg");
+  }
+  .image-11{
+    background-image: url("/Img/Aldo Tobio/Luz de otoño.jpg");
+  }
+  /*Rocío joanteguy imágenes*/
+  .image-12 {
+    background-image: url("/Img/Rocío Joanteguy/B y N.jpg");
+    }
+    
+    .image-13 {
+    
+      background-image: url("/Img/Rocío Joanteguy/Escala social.jpg");
+    }
+    .image-14 {
+      background-image: url("/Img/Rocío Joanteguy/Mirada Cultural.jpg");
+    }
+    .image-15 {
+      background-image: url("/Img/Rocío Joanteguy/saliendo.jpg");
+    }
+    .image-16{
+      background-image: url("/Img/Rocío Joanteguy/Turco.jpg");
+    }
+    .image-17{
+      background-image: url("/Img/Rocío Joanteguy/monotematica\ .jpg");
+    }
+.red-social{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: 50px;
+  margin-top: 80px;
+  margin-left: 15px;
+}
+#red-social{
+  font-size: 1.5rem;
+}
+#instagram-logo{
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+}
+#isntagram-direcc{
+  color: darkmagenta;
+  font-size: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer {
+  background-color: #111;
+  width: 100%;
+  height: 250px;
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*Tabla Autores*/
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color:burlywood;
+  font-size: 1.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 50px 200px 50px 200px;
+   
+}
+th{
+  text-align: left;
+}
+#nombre{
+  text-align: center;
+}
+#ver{
+  text-align: center;
+}
+td{
+  text-align: center;
+}
+.titulo-tabla{
+  background-color: aliceblue;
+  width: 50%;
+  margin: 50px 350px 50px 350px;
+  border-radius: 30px;
+  box-shadow: 6px 5px 4px black;
+}
+
+h1{
+  font-size: 5rem;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 0;
+  }
+  #subti-tabla{
+    font-size: 2rem;
+    text-align: center;
+    font-style: oblique;
+    margin-top: 0;
+  }
+  #encabezado-tabla{
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+    
+  }
